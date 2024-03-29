@@ -2,6 +2,116 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-size: 10px;
 }
+
+/* Exercise 1*/
+body {
+
+  width: 800px;
+  margin: 0;
+  background-color: lightslategray;
+
+  /*margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background: radial-gradient( #333, #111);
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+  
+}
+
+/*Exercise 2*/
+
+ .grid {
+
+    height: 600px;
+    display: grid;
+    border: .5rem solid black;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+ }
+
+ /*Exercise 3*/
+
+ .grid-items {
+
+    position: relative;
+    border: 0.1rem solid rgb(88, 88, 88);
+    font-size: 2rem;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+ }
+
+ /*Exercise 4*/
+
+    #box3, 
+    #box7, 
+    #box10,
+    #box11,
+    #box12,
+    #box15 {
+
+      border-left: 0.5rem solid black;
+      justify-content: ;
+
+    }
+
+    /*Exercise 5*/
+
+    #box1, 
+    #box2, 
+    #box3,
+    #box4,
+    #box5,
+    #box8,
+    #box9,
+    #box10,
+    #box11 {
+
+      border-bottom: 0.5rem solid black;
+
+    }
+
+    /*Exercise 6*/
+    .prompt {
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+    }
+
+    /*Exercise 7*/
+    .answer {
+
+      width: 50%;
+      height: 50%;
+      text-align: center;
+      
+    }
+
+    /*Exercise 8*/
+    .special {
+
+      border: none;
+      font-size: 2rem;
+
+    }
+
+
+    /*Exercise 9*/
+    @media only screen and ( min-width: 475px){
+
+      html {
+        font-size: 16px;
+      }
+      
+    }
